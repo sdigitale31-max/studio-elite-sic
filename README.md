@@ -110,3 +110,4 @@ The graphical console should now be heavily responsive on `http://localhost:3000
 ---
 
 _Veo 3.1 Studio Generator: A modular, mobile-ready, production-grade AI video workspace built for creators and builders._
+Studio Elite Sic by PlurIA
