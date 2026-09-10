@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Providers } from "./providers";
 import Navbar from "@/components/Navbar";
+import { Analytics } from "@vercel/analytics/next";
 
 const font = Inter({ subsets: ["latin"], display: "swap" });
 
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
           <Navbar />
           <div className="flex-1 flex flex-col overflow-hidden">{children}</div>
         </Providers>
+        <Analytics />
       </body>
     </html>
   );
